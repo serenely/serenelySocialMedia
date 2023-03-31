@@ -1,0 +1,26 @@
+.nav{
+    max-width: 200px;
+    display: flex;
+    padding-right: 30px;
+    margin: 10px;   
+    justify-content: left;
+    background-color: rgb(76, 150, 234);
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+.nav__ul{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+line-height: 70px;
+}
+.nav__li{
+        padding-top: 10px ;
+        border-radius: 20px;
+    background-color: rgb(234, 76, 171);
+    cursor: pointer;
+    list-style: none;
+    font-family:system-ui;;
+}

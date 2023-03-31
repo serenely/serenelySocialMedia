@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    padding: 10px;
+    margin: 10px;   
+    justify-content: center;
+    background-color: rgb(234, 76, 171);
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+.header__ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.header__li{
+    padding-top: 10px ;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(76, 150, 234);
+    border-radius: 10px;
+    cursor: pointer;
+    list-style: none;
+    font-family:system-ui;;
+}

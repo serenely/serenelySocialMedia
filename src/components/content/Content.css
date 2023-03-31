@@ -1,0 +1,21 @@
+.content{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+  border: 1px solid black;
+
+}
+
+.content__photo{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(131, 131, 131);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.content__descr{
+    justify-content: center;
+    align-items: center;
+}
